@@ -1,0 +1,24 @@
+{
+    "name": "persgeek/pay",
+    "description": "Pay",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saeed Johari",
+            "email": "persgeek@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "persgeek/request": "dev-main"
+    },
+    "autoload": {
+        "files": [
+            "helpers.php"
+        ],
+        "psr-4": {
+            "PG\\Pay\\": "src/"
+        }
+    }
+}
